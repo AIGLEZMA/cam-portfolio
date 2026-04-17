@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS folders
+.Spotlight-V100
+.Trashes
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+
+node_modules/
+
+# Build / cache
+dist/
+build/
+.cache/
+tmp/
+temp/
+
+*.zip
+*.tar
+*.gz
