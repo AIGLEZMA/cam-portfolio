@@ -1,0 +1,136 @@
+{
+    "meta": {
+        "title": "AIT NASSER Jaouad | Software Engineer"
+    },
+    "nav": {
+        "logo": "AIT NASSER J.",
+        "links": [
+            { "label": "Studies", "href": "#engineering" },
+            { "label": "Mobility", "href": "#mobility" },
+            { "label": "Civic Action", "href": "#civic" },
+            { "label": "Career", "href": "#career" },
+            { "label": "Resume", "href": "#cv" }
+        ]
+    },
+    "hero": {
+        "name": "AIT NASSER Jaouad",
+        "title": "Software Engineer Student @ ENSEEIHT",
+        "resumeButtonLabel": "View Resume",
+        "linkedinLabel": "LinkedIn",
+        "linkedinUrl": "https://www.linkedin.com/in/replace-this-url/"
+    },
+    "engineering": {
+        "title": "Engineering Course",
+        "projectsTitle": "Projects",
+        "timeline": [
+            {
+                "date": "SEPT 2025 – CURRENT",
+                "title": "ENSEEIHT",
+                "location": "Toulouse, France",
+                "description": [
+                    { "text": "MEng in Computer Science", "icon": "graduation-cap" },
+                    { "text": "Relevant coursework: Applied Mathematics, Artificial Intelligence, Big Data, 5G & IoT, Cybersecurity", "icon": "book-open" }
+                ]
+            },
+            {
+                "date": "Sept 2023 – Jun 2025",
+                "title": "Lycée Mohammed VI d'Excellence",
+                "location": "Benguerir, Morocco",
+                "description": [
+                    { "text": "Classes Preparatoires aux Grandes Ecoles (Technology, Industrial Science)", "icon": "building-2" },
+                    { "text": "39th at CCINP, France", "highlight": true, "icon": "trophy" },
+                    { "text": "29th at CNC, Morocco", "highlight": true, "icon": "medal" }
+                ]
+            },
+            {
+                "date": "Sept 2020 – Jun 2023",
+                "title": "Lycée technique Al Idrissi",
+                "location": "Agadir, Morocco",
+                "description": [
+                    { "text": "Baccalaureate in Electrical Sciences and Technologies", "icon": "cpu" },
+                    { "text": "Graduated with Highest Honors", "highlight": true, "icon": "award" }
+                ]
+            }
+        ],
+        "projects": [
+            {
+                "title": "pdf2calc",
+                "description": "A bulk conversion script that turns multiple PDF files into TI-Nspire or HP Prime compatible files. It is especially useful for CPGE students preparing material for concours.",
+                "tags": ["Python", "Selenium", "Automation"]
+            },
+            {
+                "title": "Magrinov",
+                "description": "An application that allows technicians to keep track of wells and solar installations in the field.",
+                "tags": ["Kotlin", "Compose Multiplatform", "SQLite"]
+            },
+            {
+                "title": "Salary Scraper",
+                "description": "I engineered a robust scraper to crawl official portals of the Moroccan Government, extracting and structuring complex fiscal data into actionable formats for analysts.",
+                "tags": ["Playwright", "Kotlin", "Data Mining"]
+            }
+        ]
+    },
+    "mobility": {
+        "title": "International Mobility",
+        "heading": "",
+        "body": "Coming from Morocco to study in France has been an important step in my personal and academic journey. It has allowed me to discover a new culture, adapt to a different environment, and become more independent. Through this experience, I am learning more about French culture and broadening my perspective. In the future, I would also like to take part in an international mobility during my third year to discover another country, learn from a new culture, and improve my language skills.",
+        "illustrationUrl": "assets/illustrations/travel-booking.svg",
+        "illustrationAlt": "unDraw travel booking illustration",
+        "visualItems": ["France", "Morocco", "Arabic", "French", "English"],
+        "tags": ["Arabic: Native", "French: C1", "English: B2"]
+    },
+    "civic": {
+        "title": "Civic Engagement",
+        "heading": "Foreign Students Association",
+        "body": "I would like to create a student association at ENSEEIHT to help new students, especially international ones, settle in more easily. The aim would be to support them in finding accommodation, handling first administrative steps, and adapting to their new environment. Having arrived from Morocco myself, I know how challenging the beginning can be. Through this initiative, I want to make this transition smoother, less stressful, and more welcoming for future students. It would be a way to combine solidarity, practical support, and student engagement.",
+        "illustrationUrl": "assets/illustrations/group-selfie.svg",
+        "illustrationAlt": "unDraw group selfie illustration",
+        "visualItems": ["Arrival", "Housing", "Admin", "Campus", "Community"]
+    },
+    "career": {
+        "title": "Career",
+        "items": [
+            {
+                "date": "2023 – Present",
+                "title": "Freelance Java Developer",
+                "description": "Worked on multiple Java projects, especially around the Minecraft game. I built several plugins that let server owners change gameplay behavior, automate systems, and customize the player experience.",
+                "tags": ["Java", "MySQL", "Redis"]
+            }
+        ]
+    },
+    "other": {
+        "title": "Other",
+        "items": [
+            {
+                "title": "Video Games",
+                "description": "I like playing video games and exploring the systems, strategies, and design choices behind them.",
+                "static": true
+            },
+            {
+                "title": "Programming",
+                "description": "I like programming and spending time building tools, experimenting with ideas, and learning new technologies.",
+                "static": true
+            }
+        ]
+    },
+    "resume": {
+        "title": "Resume",
+        "files": [
+            {
+                "language": "FRANCAIS",
+                "path": "pdf/cv_fr.pdf",
+                "downloadLabel": "Download"
+            },
+            {
+                "language": "ENGLISH",
+                "path": "pdf/cv_en.pdf",
+                "downloadLabel": "Download"
+            }
+        ]
+    },
+    "pitch": {
+        "title": "The Pitch",
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    "footer": "© 2026 AIT NASSER Jaouad | Engineering with Purpose"
+}
