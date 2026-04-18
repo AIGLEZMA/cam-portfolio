@@ -54,7 +54,8 @@ function renderContent(content) {
     renderCareer(content.career);
     renderOther(content.other);
     renderResume(content.resume);
-    renderPitch(content.pitch);
+    renderVideoSection("pitch", content.pitch);
+    renderVideoSection("retake", content.retake);
     setText("footer-text", content.footer);
 }
 
@@ -212,14 +213,18 @@ function renderResume(section) {
     `;
 }
 
-function renderPitch(section) {
-    const container = document.getElementById("pitch");
+function renderVideoSection(targetId, section) {
+    const container = document.getElementById(targetId);
+    const videoContent = section.videoUrl
+        ? `<iframe width="100%" height="100%" src="${escapeAttribute(section.videoUrl)}" title="${escapeAttribute(section.title)}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`
+        : `<div class="video-placeholder">${escapeHtml(section.placeholder ?? "Video coming soon.")}</div>`;
+
     container.innerHTML = `
         <div class="section-header">
             <h2>${escapeHtml(section.title)}</h2>
         </div>
         <div class="browser reveal pitch-frame">
-            <iframe width="100%" height="100%" src="${escapeAttribute(section.videoUrl)}" frameborder="0" allowfullscreen title="${escapeAttribute(section.title)}"></iframe>
+            ${videoContent}
         </div>
     `;
 }
